@@ -2,44 +2,45 @@
 
 ## Overview
 
-This assignment involves setting up a simple username/password authentication system using Redux for state management and Next.js for the front-end and back-end. You will create API endpoints with bearer token authentication and implement a custom `useAuthSession` hook to manage the user's session on the client side.
+This project implements a simple username/password authentication system using Next.js and Redux for state management. It includes API endpoints with bearer token authentication and a custom hook to manage the user's session on the client side.
 
-## Your Tasks
+## Features
 
-1. **Implement the `useAuthSession` Hook**:
+- **Login/Logout functionality**
+- **Token-based authentication**
+- **Redux state management**
 
-   - In `hooks/useAuthSession.ts`, create a custom hook that manages the user's authentication session.
-   - The hook should handle checking if a user is authenticated and fetching user data.
+## Installation
 
-2. **Create and Complete the API Endpoints**:
+1. **Clone the repository:**
 
-   - create the required apis
+   ```bash
+   git clone https://github.com/your-username/your-repo.git
+   cd your-repo
+   ```
 
-3. **Bearer Token Authentication**:
-   - Implement bearer token authentication in your API endpoints.
-   - Ensure that API requests are secured and only accessible to authenticated users.
+2. **Install dependencies:**
 
-## Example Usage of useAuthSession Hook
+   ```bash
+   npm install
+   ```
 
-```bash
-const { user } = useAuthSession();
+3. **Start the development server:**
 
-if (user) {
-  console.log('User:', user.username);
-}
-```
+   ```bash
+   npm run dev
+   ```
 
-## Estimated Time
+## Usage
 
-Please spend no more than 3-4 hours on this assignment and submit whatever you can complete within that time frame.
+- **Login**: Enter your username and password on the login page and click "Login" to authenticate.
 
-## Bonus Tasks
+- **Logout**: Click the "Logout" button to clear the authentication token and reset the session.
 
-1. Add validation checks for the login form.
-2. Show toast notifications for errors and successful login.
+## Deployment
 
-## Submission
+You can access the deployed application at [Your Deployment Link](http://your-deployment-link.com).
 
-1. Ensure all your changes are committed.
-2. Push your changes to a new repository on your personal GitHub account with public access.
-3. Provide a link to your repository, along with your email and phone number, in the provided Google Form. Do not create pull requests in the shared repository.
+## Contributing
+
+Feel free to fork the repository and submit pull requests with your improvements.
