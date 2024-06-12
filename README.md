@@ -15,7 +15,7 @@ This project implements a simple username/password authentication system using N
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/your-repo.git
+   git clone https://github.com/hari-bot/authentication-system.git
    cd your-repo
    ```
 
