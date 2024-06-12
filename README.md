@@ -16,7 +16,7 @@ This project implements a simple username/password authentication system using N
 
    ```bash
    git clone https://github.com/hari-bot/authentication-system.git
-   cd your-repo
+   cd authentication-system
    ```
 
 2. **Install dependencies:**
@@ -33,13 +33,17 @@ This project implements a simple username/password authentication system using N
 
 ## Usage
 
-- **Login**: Enter your username and password on the login page and click "Login" to authenticate.
+- **Login**:
+
+  - Username: `user`
+  - Password: `password`
+  - Enter your username and password on the login page and click "Login" to authenticate.
 
 - **Logout**: Click the "Logout" button to clear the authentication token and reset the session.
 
 ## Deployment
 
-You can access the deployed application at [Your Deployment Link](http://your-deployment-link.com).
+You can access the deployed application at [Your Deployment Link](https://tmd-assingment.netlify.app/).
 
 ## Contributing
 
